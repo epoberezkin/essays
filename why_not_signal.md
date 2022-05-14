@@ -253,7 +253,7 @@ Briar is newer, and lacks too many features to be usable for large organizations
 
 #### SimpleX Caveats
 
-- The iOS and Android clients don't use the app store-run push notification system for privacy reasons; receiving messages can be delayed when the app isn't open.
+- The iOS client don't have push notification system yet, both for privacy and complexity reasons; receiving messages can be delayed when the app isn't open. Android app has an internal instant notification service that allows to be notified privately, without leaking any meta-data - it uses the same approach as [ntfy](https://ntfy.sh), but without any 3rd party dependencies.
 - There isn't currently a web-based client because the SimpleX project assesses that web has too many attack vectors.
 
 ## Conclusions
